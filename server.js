@@ -5,7 +5,7 @@ var app = express();
 app.use("/example", exampleRouter);
 
 app.get('/', function (req, res) {
-    res.send('Hello welcome to all');
+    res.send('Hello welcome my class room');
 });
 app.listen(8080);
 console.log("Running on port 8080");
